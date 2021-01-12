@@ -1,0 +1,266 @@
+﻿
+@model Online_Quiz.Models.Paper
+
+
+@{
+    ViewData["Title"] = "Create";
+    
+
+
+}
+
+<h1>Create</h1>
+
+<h4>Paper</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Create">
+            <div class="row">
+                <div class="col-6">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="PaperName" class="custom-control-inline "></label>
+                        <input asp-for="PaperName" placeholder="PaperName" class="form-control" required />
+                        <span asp-validation-for="PaperName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label asp-for="Pmarks" class="control-label"></label>
+                        <input asp-for="Pmarks" placeholder="Pmarks" id="Pmarks" class="form-control"  required/>
+                        <span asp-validation-for="Pmarks" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label asp-for="StartDate" class="custom-control-inline"></label>
+                        <input asp-for="StartDate" placeholder="StartDate" class="form-control" />
+                        <span asp-validation-for="StartDate" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label asp-for="EndDate" class="control-label"></label>
+                        <input asp-for="EndDate" placeholder="EndDate" class="form-control" />
+                        <span asp-validation-for="EndDate" class="text-danger"></span>
+                    </div>
+                </div>
+            </div> 
+            
+                <div  id="question">
+                </div>
+                
+        
+                <div class="form-group">
+
+
+
+
+
+
+                    <input type="submit" value="Create" id="create" class="btn btn-primary" disabled />
+                </div>
+        </form>
+        <button class="btn btn-primary" id="addquestion" disabled>ADD QUESTION</button>
+        <button class="btn btn-primary" id="addoption" disabled>ADD OPTION</button>
+
+    </div>
+
+</div>
+
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var marks = 0;
+            var queno = 0;
+            $('#Pmarks').change(function () {
+              
+                marks = $('#Pmarks').val();
+                var ans = window.confirm("Press ok for confirm marks : " + marks)
+                if (ans) {
+                    if (marks > 0) {
+                        $('#addquestion').prop('disabled', false);
+                        // $('#Pmarks').prop('disabled',true)
+                    }
+                }
+
+            })
+
+
+
+
+
+            $('#addquestion').click(function () {
+
+                console.log($('.card').find('.close'))
+
+                if ($('#question').children().length < marks) {
+
+                    queno = $('.question').length
+
+                    var qe = `<div class="card" id="cardQuestion">
+
+                                                <div class="question" data-queno="${queno}">
+                                                     <div class="card-header" >
+                                                        <div class="row">
+                                                       <div class="col-1"><strong><h3>Q ${queno + 1}</h3></strong></div>
+                                                         <div class="col-11">
+                                                              <input placeholder="question" type="text" class="onlyquestion form-control" required/>
+                                                                   
+                                                                  <button type="button" class="close" id="${queno}" aria-label="Close">
+                                                                         <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                                    
+                                                                <div class="options"></div>
+                                                         </div>
+                                                       </div>
+
+                                                </div>
+                                         </div>`
+                    $('#question').append($(qe))
+                    if (queno == marks - 1) {
+                        $('#' + queno).show();
+                    }
+                    else {
+                        $('#' + queno).hide();
+                    }
+
+
+                    $('#' + queno).on('click', function () {
+                        var paperId = $(this).attr('id')
+                        console.log(paperId)
+                        var ans = window.confirm("Do you want to delete??")
+                        if (ans) {
+                            console.log($(this).parent('.card'))
+                            $(this).parents('.card').remove();
+                            $('#addquestion').prop('disabled', false);
+                            $('#addoption').prop('disabled', true);
+                            marks--;
+                            $('#Pmarks').val(marks)
+                            var news= marks - 1;
+                            $('#'+news ).show();  
+
+
+                        }
+                    })
+                    //alert($('#question').children().length);
+                    //alert(marks);
+                    $('#addoption').prop('disabled', false);
+                    $('#addquestion').prop('disabled', true);
+                }
+                else {
+                    $('#addquestion').prop('disabled', true);
+                    $('#create').prop('disabled', false);
+
+                }
+
+
+
+            })
+            $('#addoption').click(function () {
+                var queno = $('.question').length
+                $('.question').each(function () {
+                    //alert($(this).attr('data-queno'))
+                    if ($(this).attr('data-queno') == (queno - 1)) {
+                        //console.log($(this))
+                        var op = `
+                                                   <div class="card-body">
+
+                                                <div class="row">
+                                                <div class="col-sm-1 ">
+                                                    <input type="radio" name="${queno + 1}" value="true" >
+                                                </div>
+                                                <div class="col-sm-11">
+                                                    <input placeholder="option1" type="text" class="form-control" required/>
+                                                </div>
+                                               </div>
+
+                                              <div class="row">
+                                                <div class="col-sm-1">
+                                                    <input type="radio"  name="${queno + 1}" value="true">
+                                                </div>
+                                                <div class="col-sm-11">
+                                                    <input placeholder="option2" type="text"  class="form-control" required/>
+                                                </div>
+                                               </div>
+
+                                            <div class="row">
+                                                <div class="col-sm-1">
+                                                    <input type="radio"  name="${queno + 1}" type="text" value="true">
+                                                </div>
+                                                <div class="col-sm-11">
+                                                    <input placeholder="option3"  required class="form-control" />
+                                                </div>
+                                               </div>
+
+                                               <div class="row">
+                                                <div class="col-sm-1">
+                                                    <input type="radio" name="${queno + 1}"  value="true">
+                                                </div>
+                                                <div class="col-sm-11 ">
+                                                    <input placeholder="option4" type="text" required class="form-control" />
+                                                </div>
+                                               </div>
+                                                </div>`
+                        //console.log($(this).children().children().children().children('div.options'))
+                        //console.log($(this).children('div.options'))
+
+                        $(this).children().children().children().children('div.options').append($(op))
+                    }
+                })
+                $('#addquestion').prop('disabled', false);
+                $('#addoption').prop('disabled', true);
+            })
+            $('#create').click(function () {
+                if (marks - 1 != queno) {
+                    
+                 
+                } else {
+                    $('#create').prop('disabled',false);
+                    alert("Confirm  press ok!!")
+
+                var i = 0;
+                // console.log($("#question").find(".question"))
+                // console.log($('.question').find(".card-header .onlyquestion"))
+                $("#question").find(".question").each(function () {
+
+                    $(this).find(".card-header .onlyquestion").attr("name", `Questions[${i}].QuestionName`)
+                    //  console.log($(this).find(".card-header .onlyquestion").attr("name", `Questions[${i}].QuestionName`))
+                    var j = 0
+                    //   console.log($(this).find('.options').children().children().children('.col-sm-11'))
+                    $(this).find('.options').children().children().children('.col-sm-11').children().each(function () {
+                        console.log($(this))
+                        $(this).attr("name", `Questions[${i}].Options[${j}].OptionName`)
+                        j++
+                    })
+
+                    var k = 0
+                    $(this).find('.options').children().children().children('.col-sm-1').children().each(function () {
+                        console.log($(this))
+                        if ($(this).is(':checked')) {
+                            console.log($(this).val())
+                            $(this).attr("name", `Questions[${i}].Options[${k}].Correct`)
+                        }
+
+                        k++
+
+                    })
+
+
+                    i++
+                })
+            }
+                })
+
+
+
+        
+        })
+    </script>
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

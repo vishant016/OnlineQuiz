@@ -1,0 +1,105 @@
+﻿@model IEnumerable<Online_Quiz.Models.AnswerSheet>
+
+@{
+    ViewData["Title"] = "ShowAttendedPaper";
+    var answer = 0;
+}
+
+
+    @if (TempData["Submit"].ToString() == "submit")
+    {
+        <div class="alert alert-success alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            New Quiz Submitted Check out mail..
+        </div>
+        TempData["Submit"] = "";
+
+    }
+    @if (TempData["DeleteAnswerSheet"].ToString() == "deleteanswersheet")
+    {
+        <div class="alert alert-danger alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            paper is deleted..
+        </div>
+        TempData["DeleteAnswerSheet"] = "";
+
+    }
+
+
+    @foreach (var item in Model)
+    {
+        answer++;
+        <div class="card">
+            <div class="card-header">
+                AnswerSheet @answer
+                <button type="button" class="close" id="@item.AnswerSheetId" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="card-body">
+
+                <dl class="row">
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(item => item.User)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @item.User
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(item => item.Paper.Pmarks)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @item.Paper.Pmarks
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(item => item.ObtainedMarks)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @item.ObtainedMarks
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(item => item.SubmitTime)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @item.SubmitTime
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(item => item.Paper.PaperName)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @item.Paper.PaperName
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(item => item.Paper.PaperCode)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @item.Paper.PaperCode
+                    </dd>
+                    <a class="btn btn-dark" asp-action="ShowAnswerSheetDetail" asp-route-id="@item.AnswerSheetId">Show answerSheet Detail</a>
+                </dl>
+            </div>
+        </div>
+    }
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            console.log($('.card').find('.close'))
+            $('.card').find('.close').each(function () {
+                console.log($(this))
+                $(this).click(function () {
+                    var paperId = $(this).attr('id')
+                    console.log(paperId)
+                    var ans = window.confirm("Do you want to delete??")
+                    if (ans) {
+                        window.location.href = "/Join/DeleteAnswerSheet/" + paperId;
+                    }
+                })
+
+            })
+
+        })
+    </script>
+
+}

@@ -1,0 +1,108 @@
+﻿@model IEnumerable<Online_Quiz.Models.Paper>
+
+
+@{
+    ViewData["Title"] = "ShowPaper";
+    var paper = 0;
+}
+@if (TempData["Success"].ToString() == "success")
+{
+    <div class="alert alert-success alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        New Quiz created Check out mail..
+    </div>
+   TempData["Success"] = "";
+
+}
+@if (TempData["Delete"].ToString() == "delete")
+{
+    <div class="alert alert-danger alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        paper is deleted..
+    </div>
+    TempData["Delete"] = "";
+
+}
+
+@foreach (var item in Model)
+{
+    paper++;
+    <div class="card">
+        <div class="card-header">
+            Paper @paper
+            <button type="button" class="close" id="@item.PaperId" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(item => item.PaperCode)
+                </dt>
+                <dd class="col-sm-10">
+                    @item.PaperCode
+                </dd>
+
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(item => item.PaperName)
+                </dt>
+                <dd class="col-sm-10">
+                    @item.PaperName
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(item => item.StartDate)
+                </dt>
+                <dd class="col-sm-10">
+                    @item.StartDate
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(item => item.EndDate)
+                </dt>
+                <dd class="col-sm-10">
+                    @item.EndDate
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(item => item.Pmarks)
+                </dt>
+                <dd class="col-sm-10">
+                    @item.Pmarks
+
+                </dd>
+                <a class="btn btn-dark" asp-action="ShowPaperDetail" asp-route-id="@item.PaperId">Show paper Detail</a>
+            </dl>
+        </div>
+    </div>
+}
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            console.log($('.card').find('.close'))
+            $('.card').find('.close').each(function () {
+                console.log($(this))
+                $(this).click(function () {
+                    var paperId = $(this).attr('id')
+                    console.log(paperId)
+                    var ans = window.confirm("Do you want to delete??")
+                    if (ans) {
+                        window.location.href = "/Create/DeletePaper/" + paperId;
+                    }
+                })
+
+            })
+
+
+
+
+
+
+        })
+    </script>
+
+
+
+
+
+
+}

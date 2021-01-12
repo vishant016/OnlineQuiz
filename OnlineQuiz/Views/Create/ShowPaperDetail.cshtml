@@ -1,0 +1,65 @@
+﻿@model Online_Quiz.Models.Paper
+
+@{
+    ViewData["Title"] = "ShowPaperDetail";
+    var count = 0;
+}
+
+<h1>ShowPaperDetail</h1>
+
+<h3 style="color:red">Correct Answers are in <span style="color:green">green Box</span></h3>
+<div id="question">
+    <div class="card">
+        @foreach (var question in Model.Questions)
+        {
+            count++;
+            <div class="question">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-1"><strong><h3>@count</h3></strong></div>
+                        <div class="col-11">
+                            <input type="text" value="@question.QuestionName" class="OnlyQuestion form-control" disabled />
+
+                            <div class="options">
+                                @foreach (var option in question.Options)
+                                {
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-sm-1 ">
+                                                <input type="radio" class="custom-radio" style="background-color:green" checked="@option.Correct" name="@question.QuestionId" value="true" disabled>
+                                            </div>
+                                            <div class="col-sm-11">
+                                                <input type="text" value="@option.OptionName" class="form-control" disabled />
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                }
+            </div>
+        </div>
+
+
+
+    @section Scripts {
+        <script>
+            $(document).ready(function () {
+                $("#question").find(".question").each(function () {
+                    $(this).find('.options').children().children().children('.col-sm-1').children().each(function () {
+                        console.log($(this))
+                        if ($(this).is(':checked')) {
+                            console.log($(this).parent().parent().children())
+                            $(this).parent().parent().children().css({ 'background-color': 'green' })
+
+                        }
+                    })
+
+                })
+            })
+        </script>
+    }

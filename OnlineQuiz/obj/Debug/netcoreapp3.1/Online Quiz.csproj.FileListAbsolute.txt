@@ -1,0 +1,211 @@
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.AssemblyInfoInputs.cache
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.AssemblyInfo.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.csproj.CoreCompileInputs.cache
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.MvcApplicationPartsAssemblyInfo.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.MvcApplicationPartsAssemblyInfo.cache
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.RazorAssemblyInfo.cache
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.RazorAssemblyInfo.cs
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\appsettings.Development.json
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\appsettings.json
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Online Quiz.StaticWebAssets.xml
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Online Quiz.exe
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Online Quiz.deps.json
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Online Quiz.runtimeconfig.json
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Online Quiz.runtimeconfig.dev.json
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Online Quiz.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Online Quiz.pdb
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Online Quiz.Views.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Online Quiz.Views.pdb
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+G:\Online Quiz\Online Quiz\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.TagHelpers.input.cache
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.TagHelpers.output.cache
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.RazorCoreGenerate.cache
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ShowRecoveryCodes.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Views\Create\Create.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Views\Create\NoPaper.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Views\Create\ShowPaper.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Views\Create\ShowPaperDetail.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Views\Join\Join.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.RazorTargetAssemblyInfo.cache
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.RazorTargetAssemblyInfo.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.Views.pdb
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.csproj.CopyComplete
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\staticwebassets\Online Quiz.StaticWebAssets.Manifest.cache
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\staticwebassets\Online Quiz.StaticWebAssets.xml
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.dll
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.pdb
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.genruntimeconfig.cache
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Online Quiz.csprojAssemblyReference.cache
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Views\Join\JoinQuiz.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Controllers\nopaper.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Views\Join\ShowAttendedPaper.cshtml.g.cs
+G:\Online Quiz\Online Quiz\obj\Debug\netcoreapp3.1\Razor\Views\Join\ShowAnswerSheetDetail.cshtml.g.cs

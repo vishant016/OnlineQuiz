@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-Online_Quiz-7FFFCD9D-88CF-42F6-8171-F985EFB08B28</UserSecretsId>
+    <RootNamespace>Online_Quiz</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20201111103735_Quiz3.cs" />
+    <Compile Remove="Data\Migrations\20201111103735_Quiz3.Designer.cs" />
+    <Compile Remove="Data\Migrations\20201111105159_Quiz4.cs" />
+    <Compile Remove="Data\Migrations\20201111105159_Quiz4.Designer.cs" />
+    <Compile Remove="Data\Migrations\20201111110256_Quiz5.cs" />
+    <Compile Remove="Data\Migrations\20201111110256_Quiz5.Designer.cs" />
+    <Compile Remove="Data\Migrations\20201111112031_Quiz7.cs" />
+    <Compile Remove="Data\Migrations\20201111112031_Quiz7.Designer.cs" />
+    <Compile Remove="Data\Migrations\20201111112229_Quiz8.cs" />
+    <Compile Remove="Data\Migrations\20201111112229_Quiz8.Designer.cs" />
+    <Compile Remove="Data\Migrations\20201111112344_Quiz8.cs" />
+    <Compile Remove="Data\Migrations\20201111112344_Quiz8.Designer.cs" />
+    <Compile Remove="Data\Migrations\20201111112559_Quiz9.cs" />
+    <Compile Remove="Data\Migrations\20201111112559_Quiz9.Designer.cs" />
+    <Compile Remove="Data\Migrations\20201111113129_Quiz10.cs" />
+    <Compile Remove="Data\Migrations\20201111113129_Quiz10.Designer.cs" />
+    <Compile Remove="Data\Migrations\20201118080559_quiz5.cs" />
+    <Compile Remove="Data\Migrations\20201118080559_quiz5.Designer.cs" />
+    <Compile Remove="Data\Migrations\20201118081941_quiz6.cs" />
+    <Compile Remove="Data\Migrations\20201118081941_quiz6.Designer.cs" />
+    <Compile Remove="Data\Migrations\20201118084036_quiz5.cs" />
+    <Compile Remove="Data\Migrations\20201118084036_quiz5.Designer.cs" />
+    <Compile Remove="Data\Migrations\20201118085111_quiz5.cs" />
+    <Compile Remove="Data\Migrations\20201118085111_quiz5.Designer.cs" />
+    <Compile Remove="Data\Migrations\20201118085646_quiz5.cs" />
+    <Compile Remove="Data\Migrations\20201118085646_quiz5.Designer.cs" />
+    <Compile Remove="Data\Migrations\20201118090032_quiz5.cs" />
+    <Compile Remove="Data\Migrations\20201118090032_quiz5.Designer.cs" />
+    <Compile Remove="Data\Migrations\20201118090414_quiz6.cs" />
+    <Compile Remove="Data\Migrations\20201118090414_quiz6.Designer.cs" />
+    <Compile Remove="Data\Migrations\20201118091913_quiz7.cs" />
+    <Compile Remove="Data\Migrations\20201118091913_quiz7.Designer.cs" />
+    <Compile Remove="Data\Migrations\20201118092722_quiz7.cs" />
+    <Compile Remove="Data\Migrations\20201118092722_quiz7.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="3.1.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+</Project>

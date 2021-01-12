@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="text-center">
+        <div class="row">
+            <div class="col-6">
+                <form>
+                    <button class=" btn btn-primary" asp-controller="Create" asp-action="Create">Create Quiz</button>
+                </form>
+            </div>
+            
+            <div class="col-6">
+                <form>
+                    <button class=" btn btn-primary" asp-controller="Join" asp-action="Join">Join Quiz</button>
+                </form>
+            </div>
+        </div>
+        <hr />
+        <br /><br />
+        <div class="row">
+            <div class="col-6">
+                @*<form asp-controller="Create" asp-action="ShowPaper" method="get" asp-route-id="@User.Identity.Name">*@
+                    <a class="btn btn-primary"   asp-controller="Create" asp-action="ShowPaper"  >Show created Quiz</a>
+                @*</form>*@
+            </div>
+            <div class="col-6">
+                <a class="btn btn-primary" asp-controller="Join" asp-action="ShowAttendedPaper">Show Attended Quiz</a>
+            </div>
+            </div>
+        
+    </div>
+
+
+

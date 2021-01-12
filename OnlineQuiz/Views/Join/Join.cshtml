@@ -1,0 +1,125 @@
+﻿@model Online_Quiz.Models.Paper
+
+@{
+    ViewData["Title"] = "Join";
+    
+    var count = 0;
+}
+
+<h1>Join</h1>
+
+<hr />
+@if (ViewBag.exist == null)
+{
+    @if(ViewBag.Finished == "Finished")
+    {
+        <h4 style="color:red">Quiz is finished Contact respective Faculty!!</h4>
+    }else if (ViewBag.NoQuiz=="NoQuiz")
+    {
+        <h4 style="color:red">Papercode doesnot exist!!!</h4>
+    }
+    else if (ViewBag.Submitted=="Submitted")
+    {
+        <h4 style="color:red">You have submitted once!!</h4>
+    }
+    else
+    {
+       
+      
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Join">
+                <input type="hidden" asp-for="@Model.Owner" />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+
+                    <label asp-for="PaperCode" class="control-label"></label>
+                    <input asp-for="PaperCode" class="form-control" />
+                    <span asp-validation-for="PaperCode" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+        }
+    }
+else
+{
+
+<form asp-action="JoinQuiz">
+    <input type="hidden" asp-for="@Model.PaperCode" />
+    <div id="question">
+        <div class="card">
+
+            @for (var i = 0; i < Model.Questions.Count(); i++)
+            {
+                var k = i + 1;
+                <div class="question">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-1"><strong><h3>@k</h3></strong></div>
+                        <div class="col-11">
+                            <input type="hidden" asp-for="@Model.Questions[i].QuestionName" class="onlyquestion form-control" />
+                            <label class="onlyquestion form-control">@Model.Questions[i].QuestionName</label>
+                            <div class="options">
+                                @for (var j = 0; j < Model.Questions[i].Options.Count(); j++)
+                                {
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-sm-1 ">
+                                                <input type="radio" name="@i" class="custom-radio" style="background-color:green" value="true">
+                                            </div>
+                                            <div class="col-sm-11">
+                                                <input type="hidden" asp-for="@Model.Questions[i].Options[j].OptionName" class="form-control" />
+                                                <label class="form-control">@Model.Questions[i].Options[j].OptionName</label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            }
+        </div>
+        </div>
+
+        <button class="btn btn-primary" id="Join">submit Answer</button>
+</form>
+
+}
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#Join").click(function () {
+                var i = 0
+                $("#question").find(".question").each(function () {
+
+                    var k = 0
+                    $(this).find('.options').children().children().children('.col-sm-1').children().each(function () {
+                        console.log($(this))
+                        if ($(this).is(':checked')) {
+                            console.log($(this).val())
+                            $(this).attr("name", `Questions[${i}].Options[${k}].Correct`)
+                        }
+
+                        k++
+
+                    })
+                    i++
+
+                })
+
+            })
+            })
+
+            
+    </script>
+
+}
+

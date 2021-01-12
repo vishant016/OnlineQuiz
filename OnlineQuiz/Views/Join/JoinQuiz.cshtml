@@ -1,0 +1,94 @@
+﻿@model ViewModel
+
+@{
+    ViewData["Title"] = "JoinQuiz";
+    var count = 0;
+}
+
+@if (TempData["Submit"].ToString() == "submit")
+{
+    <div class="alert alert-success alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        New Quiz submitted Check out mail..
+    </div>
+}
+
+<div>
+    <h4>AnswerSheet</h4>
+    <hr />
+    <dl class="row">
+
+        <dt class="col-sm-2">
+            <h3 style="color:dodgerblue">Obtained Marks</h3>
+        </dt>
+        <dd class="col-sm-10">
+            <h4 style="color:green">@Model.AnswerSheets.ObtainedMarks</h4>
+        </dd>
+
+    </dl>
+</div>
+
+<h3 style="color:red">Correct Answers are in <span style="color:green">green Box</span> and Your Selected answer is shown below</h3>
+<div id="question">
+    <div class="card">
+        @for (var i = 0; i < Model.AnswerSheets.Paper.Questions.Count(); i++)
+        {
+            var k = i + 1;
+            <div class="question">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-1"><strong><h3>@k</h3></strong></div>
+                        <div class="col-11">
+                            <input type="text" value="@Model.AnswerSheets.Paper.Questions[i].QuestionName" class="onlyquestion form-control" disabled />
+
+                            <div class="options">
+
+                                @for (var j = 0; j < Model.AnswerSheets.Paper.Questions[i].Options.Count(); j++)
+                                {
+
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-sm-1 ">
+                                                <input type="radio" class="custom-radio" style="background-color:green" checked="@Model.AnswerSheets.Paper.Questions[i].Options[j].Correct" name="@Model.AnswerSheets.Paper.Questions[i].Options[j].QuestionId" value="true" disabled>
+                                            </div>
+                                            <div class="col-sm-11">
+                                                <input type="text" value="@Model.AnswerSheets.Paper.Questions[i].Options[j].OptionName" class="form-control" disabled />
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        Your Selected Answer :
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <input type="text" value="@Model.AnswerSheet_Questions[i].selectedoption.OptionName" class="form-control" disabled />
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#question").find(".question").each(function () {
+                $(this).find('.options').children().children().children('.col-sm-1').children().each(function () {
+                    console.log($(this))
+                    if ($(this).is(':checked')) {
+                        console.log($(this).parent().parent().children())
+                        $(this).parent().parent().children().css({ 'background-color': 'green' })
+
+                    }
+                })
+
+            })
+        })
+    </script>
+}
